@@ -5,10 +5,9 @@ body {
 }
 
 main {
-    width: 1110px;
-    height: 585px;
-    margin: auto auto;
-    /* border: solid; */
+    width: 1075px;
+    height: 575px;
+    margin: 100px auto;
 }
 
 .box {
@@ -35,38 +34,42 @@ img {
 
 .clifford img {
     border: solid;
+    border-color: hsl(263, 59%, 68%);
 }
 .abrams img {
     border: solid;
     border-color: hsl(263, 55%, 52%);
 }
 
-/* .name, .verified, .quote {
-    color: hsl(0, 0%, 81%);
-} */
-
 .verified {
     opacity: 0.5;
+    font-size: 85%;
 }
 
 .quote {
     opacity: 0.7;
 }
 
+.abrams h2, .harmon h2, .whittle h2 {
+    margin-bottom: 25px;
+}
+
+.clifford h2, .walters h2, .abrams h2 {
+    color: hsl(0, 0%, 87%);
+}
+
 .harmon, .whittle {
     color: hsl(217, 19%, 35%);
 }
 
-.abrams,
-.clifford,
-.walters .testimony {
-    color: hsl(0, 0%, 100%);
+.walters, .abrams, .clifford {
+    color: hsl(0, 0%, 81%);
 }
 
 .clifford {
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: 79% 0%;
     background-color: hsl(263, 55%, 52%);
     width: 470px;
     float: left;
@@ -81,20 +84,23 @@ img {
 
 .harmon {
     background-color: hsl(0, 0%, 100%);
+    height: 215px;
     float: left;
     clear: left;
+    
 }
 
 .abrams {
     background-color: hsl(219, 29%, 14%);
     width: 470px;
+    height: 215px;
     float: right;
     margin-left: 25px;
 }
 
 .whittle {
     background-color: hsl(0, 0%, 100%);
-    height: 530px;
+    height: 520px;
     float: right;
     clear: right;
     margin-left: 25px;
